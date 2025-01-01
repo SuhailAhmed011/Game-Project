@@ -28,9 +28,9 @@ boxes.forEach(function addEventListenertoBoxes(box) {
     if (winner == null) {
       message.innerText = "Next Player : " + currentPlayer;
     } else if (winner == "draw") {
-      message.innerText = "Game Draw. (Restarting in 5 sec)";
+      message.innerText = "Game Draw;
     } else {
-      message.innerText = "Winner : " + winner + " (Restarting in 5 sec)";
+      message.innerText = "Winner : " + winner;
     }
     noOfChances++;
   });
